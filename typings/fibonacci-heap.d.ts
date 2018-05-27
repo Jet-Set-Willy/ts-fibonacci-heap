@@ -10,7 +10,7 @@ export interface INode<K, V> {
 }
 export type CompareFunction<K, V> = (a: INode<K, V>, b: INode<K, V>) => number;
 
-declare module '@tyriar/fibonacci-heap' {
+declare module '@rs4/fibonacci-heap' {
   /**
    * A Fibonacci heap data structure with a key and optional value.
    */
