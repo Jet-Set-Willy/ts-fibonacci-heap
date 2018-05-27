@@ -1,6 +1,6 @@
 {
-  "name": "@tyriar/fibonacci-heap",
-  "version": "2.0.7",
+  "name": "@rs4/fibonacci-heap",
+  "version": "2.0.8",
   "description": "An implementation of the Fibonacci heap data structure",
   "scripts": {
     "build": "tsc",
@@ -8,7 +8,8 @@
     "test": "nyc ava",
     "watch": "tsc -w",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "pub": "npm publish --registry https://r.rs4.co/repository/rsn/"
   },
   "repository": {
     "type": "git",
